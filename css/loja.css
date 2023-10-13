@@ -1,0 +1,150 @@
+*{
+
+   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+
+}
+
+body {
+
+ 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../img/wp2757874-wallpaper-gif.gif");
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.titulo{
+
+    text-align: center;
+    margin: 40px auto 30px;
+    margin-top: 10px;
+    color: white;
+
+}
+
+.produtos{
+
+    display: inline-block;
+    width: 300px;
+    height: 450px;
+    margin-left: 120px;
+    margin-top: 100px;
+   
+}
+
+h2{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.produtos .produtos-tras:hover{
+
+    background-color: brown;
+    color: white;
+   
+}
+
+
+
+.produtos-tras{
+
+    transform: rotateY(180deg);
+    z-index: 1;
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: 0%;
+    background: transparent;
+    color: transparent;
+
+}
+
+
+.produtos-inner{
+
+   
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+
+}
+
+
+.produtos:hover .produtos-inner{
+
+    transform: rotateY(180deg);
+
+}
+
+.produtos-tras .tras-footer{
+
+    height: 60%;
+    padding: 0 15px;
+    
+}
+
+.whats{
+
+    left: 46%;
+    position: absolute;
+    top: 106%;
+    background: brown;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    padding: 10px;
+    color: rgb(5, 5, 15);
+    
+    
+
+}
+
+.whats a{
+
+    padding: 10px;
+    color: rgb(5, 5, 15);
+    text-transform: uppercase;
+    transition: all .55s ease;
+
+}
+
+.whats a:hover{
+
+    color: white;
+    transform: translateX(8px);
+
+}
+
+
+.whats:hover{
+
+    border: 1px solid rgb(202, 41, 41);
+    background: transparent;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    color: white;
+    
+
+}
+
+
+
+p{
+
+    margin-top: 50px;
+    text-align: center;
+}
+
+h3 {
+
+    
+    color: white;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-left: 520px;
+    margin-top: 40px;
+ }
